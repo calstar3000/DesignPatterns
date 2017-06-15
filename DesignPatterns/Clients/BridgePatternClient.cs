@@ -20,7 +20,7 @@ namespace DesignPatterns.Clients
         public void Run()
         {
             RobotAbstraction robot = new RobotAbstraction("Excelsior 3000");
-            robot.Movement = new RobotMovementImplementation();
+            robot.Movement = new RobotMovementFirstImplementation();
             Console.WriteLine("Robot's initial movement implemented...\n");
 
             // Exercise with first implementation
@@ -28,7 +28,7 @@ namespace DesignPatterns.Clients
 
             Console.WriteLine("\nRobot's legs are destroyed in combat...\n");
 
-            robot.Movement = new RobotMovementImplementationBackup();
+            robot.Movement = new RobotMovementSecondImplementation();
             Console.WriteLine("Robot's backup movement implemented...\n");
 
             // Exercise with second implementation

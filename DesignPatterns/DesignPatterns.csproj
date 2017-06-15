@@ -71,8 +71,8 @@
     <Compile Include="Patterns\Structural\Adapter\NewEmployeeInfoAdapter.cs" />
     <Compile Include="Patterns\Structural\Bridge\RobotAbstraction.cs" />
     <Compile Include="Patterns\Structural\Bridge\RobotMovementAbstraction.cs" />
-    <Compile Include="Patterns\Structural\Bridge\RobotMovementImplementation.cs" />
-    <Compile Include="Patterns\Structural\Bridge\RobotMovementImplementationBackup.cs" />
+    <Compile Include="Patterns\Structural\Bridge\RobotMovementFirstImplementation.cs" />
+    <Compile Include="Patterns\Structural\Bridge\RobotMovementSecondImplementation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -5,7 +5,7 @@ namespace DesignPatterns.Patterns.Structural.Bridge
     /// <summary>
     /// One example of a concrete implementation of the robot's movement abstraction.
     /// </summary>
-    public class RobotMovementImplementation : RobotMovementAbstraction
+    public class RobotMovementFirstImplementation : RobotMovementAbstraction
     {
         public override void MoveForwards()
         {
