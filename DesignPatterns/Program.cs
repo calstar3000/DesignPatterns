@@ -19,6 +19,7 @@ namespace DesignPatterns
             patterns.Add(1, new FactoryPatternClient());
             patterns.Add(2, new BuilderPatternClient());
             patterns.Add(3, new SingletonPatternClient());
+            patterns.Add(4, new PrototypePatternClient());
 
             foreach (var key in patterns.Keys)
             {

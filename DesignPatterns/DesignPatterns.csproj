@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Clients\BuilderPatternClient.cs" />
     <Compile Include="Clients\Interfaces\IPatternClient.cs" />
+    <Compile Include="Clients\PrototypePatternClient.cs" />
     <Compile Include="Clients\SingletonPatternClient.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
@@ -58,6 +59,10 @@
     <Compile Include="Clients\FactoryPatternClient.cs" />
     <Compile Include="Patterns\Creational\Factory\SocialNetwork.cs" />
     <Compile Include="Patterns\Creational\Factory\SocialNetworkFactory.cs" />
+    <Compile Include="Patterns\Creational\Prototype\HalfOrcPrototype.cs" />
+    <Compile Include="Patterns\Creational\Prototype\OrcArmy.cs" />
+    <Compile Include="Patterns\Creational\Prototype\OrcPrototype.cs" />
+    <Compile Include="Patterns\Creational\Prototype\Prototype.cs" />
     <Compile Include="Patterns\Creational\Singleton\GameState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
