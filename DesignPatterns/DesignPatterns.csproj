@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clients\AdapterPatternClient.cs" />
     <Compile Include="Clients\BuilderPatternClient.cs" />
     <Compile Include="Clients\Interfaces\IPatternClient.cs" />
     <Compile Include="Clients\PrototypePatternClient.cs" />
@@ -64,6 +65,9 @@
     <Compile Include="Patterns\Creational\Prototype\OrcPrototype.cs" />
     <Compile Include="Patterns\Creational\Prototype\Prototype.cs" />
     <Compile Include="Patterns\Creational\Singleton\GameState.cs" />
+    <Compile Include="Patterns\Structural\Adapter\ExtraEmployeeInfoAdaptee.cs" />
+    <Compile Include="Patterns\Structural\Adapter\LegacyEmployeeInfoTarget.cs" />
+    <Compile Include="Patterns\Structural\Adapter\NewEmployeeInfoAdapter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

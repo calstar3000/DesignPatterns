@@ -20,6 +20,7 @@ namespace DesignPatterns
             patterns.Add(2, new BuilderPatternClient());
             patterns.Add(3, new SingletonPatternClient());
             patterns.Add(4, new PrototypePatternClient());
+            patterns.Add(5, new AdapterPatternClient());
 
             foreach (var key in patterns.Keys)
             {
