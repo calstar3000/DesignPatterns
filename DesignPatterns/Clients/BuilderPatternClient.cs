@@ -1,19 +1,22 @@
-﻿using DesignPatterns.Clients;
+﻿using DesignPatterns.Clients.Interfaces;
 using DesignPatterns.Patterns.Builder;
 
-/// <summary>
-/// This class represents a client of the Builder, in this case a pie shop
-/// responsible for building pies.
-/// </summary>
-public class BuilderPatternClient : IPatternClient
+namespace DesignPatterns.Clients
 {
-    public string PatternName
+    /// <summary>
+    /// This class represents a client of the Builder, in this case a pie shop
+    /// responsible for building pies.
+    /// </summary>
+    public class BuilderPatternClient : IPatternClient
     {
-        get { return "Builder pattern"; }
-    }
+        public string PatternName
+        {
+            get { return "Builder pattern"; }
+        }
 
-    public void Run()
-    {
-        new PieShop().BuildPies();
+        public void Run()
+        {
+            new PieShop().BuildPies();
+        }
     }
 }

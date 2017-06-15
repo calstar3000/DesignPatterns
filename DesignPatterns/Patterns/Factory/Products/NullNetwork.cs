@@ -1,4 +1,4 @@
-﻿using System;
+﻿using DesignPatterns.Patterns.Factory.Interfaces;
 
 namespace DesignPatterns.Patterns.Factory.Products
 {

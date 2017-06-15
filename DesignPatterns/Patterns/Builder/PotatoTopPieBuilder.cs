@@ -1,4 +1,4 @@
-﻿using System;
+﻿using DesignPatterns.Patterns.Builder.Interfaces;
 
 namespace DesignPatterns.Patterns.Builder
 {

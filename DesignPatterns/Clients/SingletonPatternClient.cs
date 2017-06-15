@@ -1,16 +1,24 @@
-﻿using DesignPatterns.Clients;
+﻿using DesignPatterns.Clients.Interfaces;
 using DesignPatterns.Patterns.Singleton;
 
-public class SingletonPatternClient : IPatternClient
+namespace DesignPatterns.Clients
 {
-    public string PatternName
+    /// <summary>
+    /// This class represents the client of a Singleton.
+    /// In this example, it is a class representing some shared state in a game
+    /// (eg. whose turn it is, player scores, etc.)
+    /// </summary>
+    public class SingletonPatternClient : IPatternClient
     {
-        get { return "Singleton pattern"; }
-    }
+        public string PatternName
+        {
+            get { return "Singleton pattern"; }
+        }
 
-    public void Run()
-    {
-        GameState state = GameState.Instance();
-        GameState state2 = GameState.Instance();
+        public void Run()
+        {
+            GameState state = GameState.Instance();
+            GameState state2 = GameState.Instance();
+        }
     }
 }

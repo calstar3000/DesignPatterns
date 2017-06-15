@@ -1,19 +1,22 @@
-﻿using DesignPatterns.Patterns.Factory;
+﻿using DesignPatterns.Patterns.Factory.Interfaces;
 
-/// <summary>
-/// Example of a "Product" of the "Factory"
-/// </summary>
-public class Google : ISocialNetwork
+namespace DesignPatterns.Patterns.Factory.Products
 {
-    private SocialNetwork _networkId;
-
-    public Google()
+    /// <summary>
+    /// Example of a "Product" of the "Factory"
+    /// </summary>
+    public class Google : ISocialNetwork
     {
-        _networkId = SocialNetwork.Google;
-    }
+        private SocialNetwork _networkId;
 
-    public string GetDescription()
-    {
-        return string.Format("Connect with {0}", _networkId);
+        public Google()
+        {
+            _networkId = SocialNetwork.Google;
+        }
+
+        public string GetDescription()
+        {
+            return string.Format("Connect with {0}", _networkId);
+        }
     }
 }

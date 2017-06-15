@@ -1,4 +1,5 @@
-﻿namespace DesignPatterns.Patterns.Factory
+﻿
+namespace DesignPatterns.Patterns.Factory
 {
     public enum SocialNetwork
     {

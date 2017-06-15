@@ -1,5 +1,5 @@
 ﻿
-namespace DesignPatterns.Clients
+namespace DesignPatterns.Clients.Interfaces
 {
     /// <summary>
     /// Defines an interfaces for how a client of a design pattern should behave

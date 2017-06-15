@@ -1,5 +1,5 @@
 ﻿using DesignPatterns.Clients;
-using DesignPatterns.Patterns.Builder;
+using DesignPatterns.Clients.Interfaces;
 using System;
 using System.Collections.Generic;
 
