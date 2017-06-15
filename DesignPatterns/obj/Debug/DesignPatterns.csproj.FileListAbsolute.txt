@@ -1,0 +1,6 @@
+E:\Calum\Development\Solutions\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+E:\Calum\Development\Solutions\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
+E:\Calum\Development\Solutions\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe
+E:\Calum\Development\Solutions\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
+E:\Calum\Development\Solutions\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
+E:\Calum\Development\Solutions\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
