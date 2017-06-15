@@ -16,11 +16,15 @@ namespace DesignPatterns
             var patterns = new Dictionary<int, IPatternClient>();
 
             // Each new pattern is added here
+            Console.WriteLine("Creational patterns:");
             patterns.Add(1, new FactoryPatternClient());
             patterns.Add(2, new BuilderPatternClient());
             patterns.Add(3, new SingletonPatternClient());
             patterns.Add(4, new PrototypePatternClient());
+            Console.WriteLine();
+            Console.WriteLine("Structural patterns:");
             patterns.Add(5, new AdapterPatternClient());
+            patterns.Add(6, new BridgePatternClient());
 
             foreach (var key in patterns.Keys)
             {

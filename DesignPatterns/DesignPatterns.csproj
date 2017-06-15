@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clients\AdapterPatternClient.cs" />
+    <Compile Include="Clients\BridgePatternClient.cs" />
     <Compile Include="Clients\BuilderPatternClient.cs" />
     <Compile Include="Clients\Interfaces\IPatternClient.cs" />
     <Compile Include="Clients\PrototypePatternClient.cs" />
@@ -68,6 +69,10 @@
     <Compile Include="Patterns\Structural\Adapter\ExtraEmployeeInfoAdaptee.cs" />
     <Compile Include="Patterns\Structural\Adapter\LegacyEmployeeInfoTarget.cs" />
     <Compile Include="Patterns\Structural\Adapter\NewEmployeeInfoAdapter.cs" />
+    <Compile Include="Patterns\Structural\Bridge\RobotAbstraction.cs" />
+    <Compile Include="Patterns\Structural\Bridge\RobotMovementAbstraction.cs" />
+    <Compile Include="Patterns\Structural\Bridge\RobotMovementImplementation.cs" />
+    <Compile Include="Patterns\Structural\Bridge\RobotMovementImplementationBackup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
