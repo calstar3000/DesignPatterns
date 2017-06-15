@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Patterns.Builder.Interfaces;
+﻿using DesignPatterns.Patterns.Creational.Builder.Interfaces;
 
-namespace DesignPatterns.Patterns.Builder
+namespace DesignPatterns.Patterns.Creational.Builder
 {
     /// <summary>
     /// An example of a product built by the Builder

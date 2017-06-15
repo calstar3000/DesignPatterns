@@ -1,17 +1,17 @@
-﻿using DesignPatterns.Patterns.Builder.Interfaces;
+﻿using DesignPatterns.Patterns.Creational.Builder.Interfaces;
 
-namespace DesignPatterns.Patterns.Builder
+namespace DesignPatterns.Patterns.Creational.Builder
 {
     /// <summary>
     /// An example of a product built by the Builder
     /// </summary>
-    public class MinceAndCheesePieBuilder : IPieBuilder
+    public class PotatoTopPieBuilder : IPieBuilder
     {
         Pie _pie;
 
-        public MinceAndCheesePieBuilder()
+        public PotatoTopPieBuilder()
         {
-            _pie = new Pie("Mince and Cheese Pie");
+            _pie = new Pie("Potato Top Pie");
         }
 
         public Pie PieInstance
@@ -26,12 +26,12 @@ namespace DesignPatterns.Patterns.Builder
 
         public void AddFilling()
         {
-            _pie.parts.Add("Filling", "Mince, cheese");
+            _pie.parts.Add("Filling", "Mince");
         }
 
         public void AddToppig()
         {
-            _pie.parts.Add("Topping", "Pastry lid");
+            _pie.parts.Add("Topping", "Potato lid");
         }
     }
 }

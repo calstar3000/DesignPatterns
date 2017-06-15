@@ -1,5 +1,5 @@
 ﻿
-namespace DesignPatterns.Patterns.Builder.Interfaces
+namespace DesignPatterns.Patterns.Creational.Builder.Interfaces
 {
     /// <summary>
     /// The contract that all Builders must adhere to, ie. all the steps required to build a pie

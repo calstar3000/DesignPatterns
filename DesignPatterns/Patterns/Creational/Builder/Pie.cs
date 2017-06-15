@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DesignPatterns.Patterns.Builder
+namespace DesignPatterns.Patterns.Creational.Builder
 {
     /// <summary>
     /// Represents a product of the Builder, in this case a pie.

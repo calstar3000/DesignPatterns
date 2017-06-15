@@ -1,5 +1,5 @@
 ﻿using DesignPatterns.Clients.Interfaces;
-using DesignPatterns.Patterns.Builder;
+using DesignPatterns.Patterns.Creational.Builder;
 
 namespace DesignPatterns.Clients
 {
