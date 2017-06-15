@@ -8,18 +8,18 @@ using System;
 /// </summary>
 public static class SocialNetworkFactory
 {
-	public static ISocialNetwork CreateSocialNetwork(SocialNetwork network)
-	{
-		switch (network)
-		{
-			case SocialNetwork.Google:
-				return new Google();
-			case SocialNetwork.Facebook:
-				return new Facebook();
-			case SocialNetwork.Instagram:
-				return new Instagram();
-			default:
-				return new NullNetwork();
-		}
-	}
+    public static ISocialNetwork CreateSocialNetwork(SocialNetwork network)
+    {
+        switch (network)
+        {
+            case SocialNetwork.Google:
+                return new Google();
+            case SocialNetwork.Facebook:
+                return new Facebook();
+            case SocialNetwork.Instagram:
+                return new Instagram();
+            default:
+                return new NullNetwork();
+        }
+    }
 }

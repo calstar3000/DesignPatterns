@@ -5,15 +5,15 @@
 /// </summary>
 public class Instagram : ISocialNetwork
 {
-	private SocialNetwork _networkId;
+    private SocialNetwork _networkId;
 
-	public Instagram()
-	{
-		_networkId = SocialNetwork.Instagram;
-	}
+    public Instagram()
+    {
+        _networkId = SocialNetwork.Instagram;
+    }
 
-	public string GetDescription()
-	{
-		return string.Format("Connect with {0}", _networkId);
-	}
+    public string GetDescription()
+    {
+        return string.Format("Connect with {0}", _networkId);
+    }
 }

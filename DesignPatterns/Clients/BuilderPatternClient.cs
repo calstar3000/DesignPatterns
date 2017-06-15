@@ -7,13 +7,13 @@ using DesignPatterns.Patterns.Builder;
 /// </summary>
 public class BuilderPatternClient : IPatternClient
 {
-	public string PatternName
-	{
-		get { return "Builder pattern"; }
-	}
+    public string PatternName
+    {
+        get { return "Builder pattern"; }
+    }
 
-	public void Run()
-	{
-		new PieShop().BuildPies();
-	}
+    public void Run()
+    {
+        new PieShop().BuildPies();
+    }
 }

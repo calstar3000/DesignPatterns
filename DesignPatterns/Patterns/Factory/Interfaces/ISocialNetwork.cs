@@ -5,5 +5,5 @@
 /// </summary>
 public interface ISocialNetwork
 {
-	string GetDescription();
+    string GetDescription();
 }
