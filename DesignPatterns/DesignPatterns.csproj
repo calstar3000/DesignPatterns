@@ -45,6 +45,7 @@
     <Compile Include="Clients\BridgePatternClient.cs" />
     <Compile Include="Clients\BuilderPatternClient.cs" />
     <Compile Include="Clients\CompositePatternClient.cs" />
+    <Compile Include="Clients\DecoratorPatternClient.cs" />
     <Compile Include="Clients\Interfaces\IPatternClient.cs" />
     <Compile Include="Clients\PrototypePatternClient.cs" />
     <Compile Include="Clients\SingletonPatternClient.cs" />
@@ -76,6 +77,11 @@
     <Compile Include="Patterns\Structural\Bridge\RobotMovementSecondImplementation.cs" />
     <Compile Include="Patterns\Structural\Composite\FamilyTree.cs" />
     <Compile Include="Patterns\Structural\Composite\TreeNode.cs" />
+    <Compile Include="Patterns\Structural\Decorator\ArtGallery.cs" />
+    <Compile Include="Patterns\Structural\Decorator\Artwork.cs" />
+    <Compile Include="Patterns\Structural\Decorator\Decorator.cs" />
+    <Compile Include="Patterns\Structural\Decorator\GalleryItem.cs" />
+    <Compile Include="Patterns\Structural\Decorator\Purchasable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
