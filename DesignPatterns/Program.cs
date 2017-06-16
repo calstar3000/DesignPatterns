@@ -24,6 +24,7 @@ namespace DesignPatterns
             patterns.Add(6, new BridgePatternClient());
             patterns.Add(7, new CompositePatternClient());
             patterns.Add(8, new DecoratorPatternClient());
+            patterns.Add(9, new FacadePatternClient());
 
             foreach (var key in patterns.Keys)
             {

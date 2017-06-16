@@ -46,6 +46,7 @@
     <Compile Include="Clients\BuilderPatternClient.cs" />
     <Compile Include="Clients\CompositePatternClient.cs" />
     <Compile Include="Clients\DecoratorPatternClient.cs" />
+    <Compile Include="Clients\FacadePatternClient.cs" />
     <Compile Include="Clients\Interfaces\IPatternClient.cs" />
     <Compile Include="Clients\PrototypePatternClient.cs" />
     <Compile Include="Clients\SingletonPatternClient.cs" />
@@ -82,6 +83,10 @@
     <Compile Include="Patterns\Structural\Decorator\Decorator.cs" />
     <Compile Include="Patterns\Structural\Decorator\GalleryItem.cs" />
     <Compile Include="Patterns\Structural\Decorator\Purchasable.cs" />
+    <Compile Include="Patterns\Structural\Facade\BackgroundCheck.cs" />
+    <Compile Include="Patterns\Structural\Facade\JobApplicationFacade.cs" />
+    <Compile Include="Patterns\Structural\Facade\ReferenceCheck.cs" />
+    <Compile Include="Patterns\Structural\Facade\ResumeCheck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
