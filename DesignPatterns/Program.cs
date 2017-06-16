@@ -27,6 +27,7 @@ namespace DesignPatterns
             patterns.Add(9, new FacadePatternClient());
             patterns.Add(10, new FlyweightPatternClient());
             patterns.Add(11, new ProxyPatternClient());
+            patterns.Add(12, new ChainOfResponsibilityClient());
 
             foreach (var key in patterns.Keys)
             {

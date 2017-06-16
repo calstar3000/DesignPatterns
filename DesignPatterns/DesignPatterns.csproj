@@ -44,6 +44,7 @@
     <Compile Include="Clients\AdapterPatternClient.cs" />
     <Compile Include="Clients\BridgePatternClient.cs" />
     <Compile Include="Clients\BuilderPatternClient.cs" />
+    <Compile Include="Clients\ChainOfResponsibilityClient.cs" />
     <Compile Include="Clients\CompositePatternClient.cs" />
     <Compile Include="Clients\DecoratorPatternClient.cs" />
     <Compile Include="Clients\FacadePatternClient.cs" />
@@ -52,6 +53,13 @@
     <Compile Include="Clients\PrototypePatternClient.cs" />
     <Compile Include="Clients\ProxyPatternClient.cs" />
     <Compile Include="Clients\SingletonPatternClient.cs" />
+    <Compile Include="Patterns\Behavioural\CustomerSupportCenter.cs" />
+    <Compile Include="Patterns\Behavioural\CustomerSupportRepresentative.cs" />
+    <Compile Include="Patterns\Behavioural\IntermediateCSR.cs" />
+    <Compile Include="Patterns\Behavioural\JuniorCSR.cs" />
+    <Compile Include="Patterns\Behavioural\SeverityLevel.cs" />
+    <Compile Include="Patterns\Behavioural\SupportRequest.cs" />
+    <Compile Include="Patterns\Behavioural\SeniorCSR.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\MinceAndCheesePieBuilder.cs" />
