@@ -1,5 +1,5 @@
 ﻿
-namespace DesignPatterns.Patterns.Behavioural
+namespace DesignPatterns.Patterns.Behavioural.ChainOfResponsibility
 {
     /// <summary>
     /// The basis for a given CSR, who has a name and a successor (another CSR

@@ -1,5 +1,5 @@
 ﻿using DesignPatterns.Clients.Interfaces;
-using DesignPatterns.Patterns.Behavioural;
+using DesignPatterns.Patterns.Behavioural.ChainOfResponsibility;
 
 namespace DesignPatterns.Clients
 {

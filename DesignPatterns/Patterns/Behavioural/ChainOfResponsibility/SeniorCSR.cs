@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Patterns.Behavioural
+namespace DesignPatterns.Patterns.Behavioural.ChainOfResponsibility
 {
     /// <summary>
     /// A senior CSR, capable of handling all but the most critical of requests,

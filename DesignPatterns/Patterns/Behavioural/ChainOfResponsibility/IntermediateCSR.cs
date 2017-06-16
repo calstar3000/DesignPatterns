@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Patterns.Behavioural
+namespace DesignPatterns.Patterns.Behavioural.ChainOfResponsibility
 {
     /// <summary>
     /// An intermediate CSR, capable of handling requests of the two lowest severity levels.

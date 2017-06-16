@@ -1,5 +1,5 @@
 ﻿
-namespace DesignPatterns.Patterns.Behavioural
+namespace DesignPatterns.Patterns.Behavioural.ChainOfResponsibility
 {
     /// <summary>
     /// Represents a support request with a level of severity, which will

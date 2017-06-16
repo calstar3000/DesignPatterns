@@ -1,5 +1,5 @@
 ﻿
-namespace DesignPatterns.Patterns.Behavioural
+namespace DesignPatterns.Patterns.Behavioural.ChainOfResponsibility
 {
     /// <summary>
     /// This class simulates a customer support center with three levels of representatives,

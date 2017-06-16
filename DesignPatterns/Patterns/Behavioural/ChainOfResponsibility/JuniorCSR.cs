@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Patterns.Behavioural
+namespace DesignPatterns.Patterns.Behavioural.ChainOfResponsibility
 {
     /// <summary>
     /// A junior CSR, only capable of handling requests of the lowest severity level.
