@@ -50,6 +50,7 @@
     <Compile Include="Clients\FlyweightPatternClient.cs" />
     <Compile Include="Clients\Interfaces\IPatternClient.cs" />
     <Compile Include="Clients\PrototypePatternClient.cs" />
+    <Compile Include="Clients\ProxyPatternClient.cs" />
     <Compile Include="Clients\SingletonPatternClient.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
@@ -95,6 +96,11 @@
     <Compile Include="Patterns\Structural\Flyweight\ShapeFactory.cs" />
     <Compile Include="Patterns\Structural\Flyweight\Square.cs" />
     <Compile Include="Patterns\Structural\Flyweight\Triangle.cs" />
+    <Compile Include="Patterns\Structural\Proxy\DatabaseAccessService.cs" />
+    <Compile Include="Patterns\Structural\Proxy\DatabaseRepository.cs" />
+    <Compile Include="Patterns\Structural\Proxy\DatabaseRepositoryProxy.cs" />
+    <Compile Include="Patterns\Structural\Proxy\Interfaces\IDatabaseRepository.cs" />
+    <Compile Include="Patterns\Structural\Proxy\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
