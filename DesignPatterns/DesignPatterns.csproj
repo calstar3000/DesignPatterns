@@ -47,6 +47,7 @@
     <Compile Include="Clients\CompositePatternClient.cs" />
     <Compile Include="Clients\DecoratorPatternClient.cs" />
     <Compile Include="Clients\FacadePatternClient.cs" />
+    <Compile Include="Clients\FlyweightPatternClient.cs" />
     <Compile Include="Clients\Interfaces\IPatternClient.cs" />
     <Compile Include="Clients\PrototypePatternClient.cs" />
     <Compile Include="Clients\SingletonPatternClient.cs" />
@@ -87,6 +88,13 @@
     <Compile Include="Patterns\Structural\Facade\JobApplicationFacade.cs" />
     <Compile Include="Patterns\Structural\Facade\ReferenceCheck.cs" />
     <Compile Include="Patterns\Structural\Facade\ResumeCheck.cs" />
+    <Compile Include="Patterns\Structural\Flyweight\Canvas.cs" />
+    <Compile Include="Patterns\Structural\Flyweight\Circle.cs" />
+    <Compile Include="Patterns\Structural\Flyweight\Shape.cs" />
+    <Compile Include="Patterns\Structural\Flyweight\ShapeType.cs" />
+    <Compile Include="Patterns\Structural\Flyweight\ShapeFactory.cs" />
+    <Compile Include="Patterns\Structural\Flyweight\Square.cs" />
+    <Compile Include="Patterns\Structural\Flyweight\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
