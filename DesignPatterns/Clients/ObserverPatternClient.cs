@@ -1,8 +1,13 @@
 ﻿using DesignPatterns.Clients.Interfaces;
-using System;
+using DesignPatterns.Patterns.Behavioural.Observer;
 
 namespace DesignPatterns.Clients
 {
+    /// <summary>
+    /// Client of the observer pattern. This example is a computer
+    /// game sale where gamers who have wishlisted a game are notified
+    /// when its price changes.
+    /// </summary>
     public class ObserverPatternClient : IPatternClient
     {
         public string PatternName
@@ -12,7 +17,7 @@ namespace DesignPatterns.Clients
 
         public void Run()
         {
-            Console.WriteLine("Pattern not implemented");
+            new SummerSale().Start();
         }
     }
 }

@@ -1,8 +1,14 @@
 ﻿using DesignPatterns.Clients.Interfaces;
-using System;
+using DesignPatterns.Patterns.Behavioural.Memento;
 
 namespace DesignPatterns.Clients
 {
+    /// <summary>
+    /// Client of the memento pattern. This example simulates a search and 
+    /// rescue operation, where a navigator explores a map space, saving
+    /// its coordiates along the way so it can come back to its last saved
+    /// position.
+    /// </summary>
     public class MementoPatternClient : IPatternClient
     {
         public string PatternName
@@ -12,7 +18,7 @@ namespace DesignPatterns.Clients
 
         public void Run()
         {
-            Console.WriteLine("Pattern not implemented");
+            new SearchAndRescue().Launch();
         }
     }
 }
