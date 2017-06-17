@@ -92,6 +92,12 @@
     <Compile Include="Patterns\Behavioural\Observer\Game.cs" />
     <Compile Include="Patterns\Behavioural\Observer\SummerSale.cs" />
     <Compile Include="Patterns\Behavioural\Observer\Gamer.cs" />
+    <Compile Include="Patterns\Behavioural\State\FrequentFlyer.cs" />
+    <Compile Include="Patterns\Behavioural\State\FrequentFlyerProgram.cs" />
+    <Compile Include="Patterns\Behavioural\State\State.cs" />
+    <Compile Include="Patterns\Behavioural\State\StateBronze.cs" />
+    <Compile Include="Patterns\Behavioural\State\StateGold.cs" />
+    <Compile Include="Patterns\Behavioural\State\StateSilver.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\MinceAndCheesePieBuilder.cs" />
@@ -149,7 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Patterns\Behavioural\Interpreter\" />
-    <Folder Include="Patterns\Behavioural\State\" />
     <Folder Include="Patterns\Behavioural\Strategy\" />
     <Folder Include="Patterns\Behavioural\TemplateMethod\" />
     <Folder Include="Patterns\Behavioural\Visitor\" />
