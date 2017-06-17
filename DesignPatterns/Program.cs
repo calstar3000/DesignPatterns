@@ -13,22 +13,35 @@ namespace DesignPatterns
     {
         public static void Main(string[] args)
         {
-            var patterns = new Dictionary<int, IPatternClient>();
+            var patterns = new Dictionary<int, IPatternClient>
+            {
+                { 1, new AbstractFactoryPatternClient() },
+                { 2, new FactoryPatternClient() },
+                { 3, new BuilderPatternClient() },
+                { 4, new SingletonPatternClient() },
+                { 5, new PrototypePatternClient() },
+                { 6, new AdapterPatternClient() },
+                { 7, new BridgePatternClient() },
+                { 8, new CompositePatternClient() },
+                { 9, new DecoratorPatternClient() },
+                { 10, new FacadePatternClient() },
+                { 11, new FlyweightPatternClient() },
+                { 12, new ProxyPatternClient() },
+                { 13, new ChainOfResponsibilityClient() },
+                { 14, new CommandPatternClient() },
+                { 15, new IteratorPatternClient() },
+                { 16, new IteratorPatternClient() },
+                { 17, new MediatorPatternClient() },
+                { 18, new MementoPatternClient() },
+                { 19, new ObserverPatternClient() },
+                { 20, new StatePatternClient() },
+                { 21, new StrategyPatternClient() },
+                { 22, new TemplateMethodPatternClient() },
+                { 23, new VisitorPatternClient() }
+            };
 
-            // Each new pattern is added here
-            patterns.Add(1, new FactoryPatternClient());
-            patterns.Add(2, new BuilderPatternClient());
-            patterns.Add(3, new SingletonPatternClient());
-            patterns.Add(4, new PrototypePatternClient());
-            patterns.Add(5, new AdapterPatternClient());
-            patterns.Add(6, new BridgePatternClient());
-            patterns.Add(7, new CompositePatternClient());
-            patterns.Add(8, new DecoratorPatternClient());
-            patterns.Add(9, new FacadePatternClient());
-            patterns.Add(10, new FlyweightPatternClient());
-            patterns.Add(11, new ProxyPatternClient());
-            patterns.Add(12, new ChainOfResponsibilityClient());
-            patterns.Add(13, new CommandPatternClient());
+            Console.WriteLine("Design pattern demos:");
+            Console.WriteLine("---------------------");
 
             foreach (var key in patterns.Keys)
             {

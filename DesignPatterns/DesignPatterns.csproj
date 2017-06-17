@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clients\AbstractFactoryPatternClient.cs" />
     <Compile Include="Clients\AdapterPatternClient.cs" />
     <Compile Include="Clients\BridgePatternClient.cs" />
     <Compile Include="Clients\BuilderPatternClient.cs" />
@@ -51,9 +52,18 @@
     <Compile Include="Clients\FacadePatternClient.cs" />
     <Compile Include="Clients\FlyweightPatternClient.cs" />
     <Compile Include="Clients\Interfaces\IPatternClient.cs" />
+    <Compile Include="Clients\InterpreterPattenClient.cs" />
+    <Compile Include="Clients\IteratorPatternClient.cs" />
+    <Compile Include="Clients\MediatorPatternClient.cs" />
+    <Compile Include="Clients\MementoPatternClient.cs" />
+    <Compile Include="Clients\ObserverPatternClient.cs" />
     <Compile Include="Clients\PrototypePatternClient.cs" />
     <Compile Include="Clients\ProxyPatternClient.cs" />
     <Compile Include="Clients\SingletonPatternClient.cs" />
+    <Compile Include="Clients\StatePatternClient.cs" />
+    <Compile Include="Clients\StrategyPatternClient.cs" />
+    <Compile Include="Clients\TemplateMethodPatternClient.cs" />
+    <Compile Include="Clients\VisitorPatternClient.cs" />
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\CustomerSupportCenter.cs" />
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\CustomerSupportRepresentative.cs" />
     <Compile Include="Patterns\Behavioural\ChainOfResponsibility\IntermediateCSR.cs" />
@@ -67,6 +77,11 @@
     <Compile Include="Patterns\Behavioural\Command\Restaurant.cs" />
     <Compile Include="Patterns\Behavioural\Command\OrderOfWaffles.cs" />
     <Compile Include="Patterns\Behavioural\Command\Waiter.cs" />
+    <Compile Include="Patterns\Behavioural\Iterator\Interfaces\IIterator.cs" />
+    <Compile Include="Patterns\Behavioural\Iterator\Iterator.cs" />
+    <Compile Include="Patterns\Behavioural\Iterator\Radio.cs" />
+    <Compile Include="Patterns\Behavioural\Iterator\RadioStations.cs" />
+    <Compile Include="Patterns\Behavioural\Iterator\RadioStation.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\MinceAndCheesePieBuilder.cs" />
@@ -122,7 +137,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Patterns\Behavioural\Interpreter\" />
+    <Folder Include="Patterns\Behavioural\Mediator\" />
+    <Folder Include="Patterns\Behavioural\Memento\" />
+    <Folder Include="Patterns\Behavioural\Observer\" />
+    <Folder Include="Patterns\Behavioural\State\" />
+    <Folder Include="Patterns\Behavioural\Strategy\" />
+    <Folder Include="Patterns\Behavioural\TemplateMethod\" />
+    <Folder Include="Patterns\Behavioural\Visitor\" />
+    <Folder Include="Patterns\Creational\AbstractFactory\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
