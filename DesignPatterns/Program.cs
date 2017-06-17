@@ -29,7 +29,7 @@ namespace DesignPatterns
                 { 12, new ProxyPatternClient() },
                 { 13, new ChainOfResponsibilityClient() },
                 { 14, new CommandPatternClient() },
-                { 15, new IteratorPatternClient() },
+                { 15, new InterpreterPattenClient() },
                 { 16, new IteratorPatternClient() },
                 { 17, new MediatorPatternClient() },
                 { 18, new MementoPatternClient() },

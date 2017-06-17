@@ -82,6 +82,9 @@
     <Compile Include="Patterns\Behavioural\Iterator\Radio.cs" />
     <Compile Include="Patterns\Behavioural\Iterator\RadioStations.cs" />
     <Compile Include="Patterns\Behavioural\Iterator\RadioStation.cs" />
+    <Compile Include="Patterns\Behavioural\Mediator\Chatroom.cs" />
+    <Compile Include="Patterns\Behavioural\Mediator\Mediator.cs" />
+    <Compile Include="Patterns\Behavioural\Mediator\Participant.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\MinceAndCheesePieBuilder.cs" />
@@ -139,7 +142,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Patterns\Behavioural\Interpreter\" />
-    <Folder Include="Patterns\Behavioural\Mediator\" />
     <Folder Include="Patterns\Behavioural\Memento\" />
     <Folder Include="Patterns\Behavioural\Observer\" />
     <Folder Include="Patterns\Behavioural\State\" />
