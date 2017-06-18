@@ -109,6 +109,11 @@
     <Compile Include="Patterns\Behavioural\TemplateMethod\GameDay.cs" />
     <Compile Include="Patterns\Behavioural\TemplateMethod\GameOfRugby.cs" />
     <Compile Include="Patterns\Behavioural\TemplateMethod\GameOfSport.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\Client.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\Interfaces\IClient.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\Interfaces\IVisitor.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\Taxi.cs" />
+    <Compile Include="Patterns\Behavioural\Visitor\TaxiDispatcher.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\MinceAndCheesePieBuilder.cs" />
@@ -166,7 +171,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Patterns\Behavioural\Interpreter\" />
-    <Folder Include="Patterns\Behavioural\Visitor\" />
     <Folder Include="Patterns\Creational\AbstractFactory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
