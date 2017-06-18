@@ -1,8 +1,12 @@
 ﻿using DesignPatterns.Clients.Interfaces;
-using System;
+using DesignPatterns.Patterns.Behavioural.Strategy;
 
 namespace DesignPatterns.Clients
 {
+    /// <summary>
+    /// Client of the strategy pattern. This example simulates an airport transfer service,
+    /// where a passenger can choose from various transfer strategies (car, taxi, bus).
+    /// </summary>
     public class StrategyPatternClient : IPatternClient
     {
         public string PatternName
@@ -12,7 +16,7 @@ namespace DesignPatterns.Clients
 
         public void Run()
         {
-            Console.WriteLine("Pattern not implemented");
+            new AirportTransferService().ChooseTransferMethod();
         }
     }
 }

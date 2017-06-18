@@ -98,6 +98,12 @@
     <Compile Include="Patterns\Behavioural\State\StateBronze.cs" />
     <Compile Include="Patterns\Behavioural\State\StateGold.cs" />
     <Compile Include="Patterns\Behavioural\State\StateSilver.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\AirportTransferService.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\Interfaces\ITransferMethod.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\TransferByBus.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\TransferByCar.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\TransferByTaxi.cs" />
+    <Compile Include="Patterns\Behavioural\Strategy\TransferType.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\MinceAndCheesePieBuilder.cs" />
@@ -155,7 +161,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Patterns\Behavioural\Interpreter\" />
-    <Folder Include="Patterns\Behavioural\Strategy\" />
     <Folder Include="Patterns\Behavioural\TemplateMethod\" />
     <Folder Include="Patterns\Behavioural\Visitor\" />
     <Folder Include="Patterns\Creational\AbstractFactory\" />
