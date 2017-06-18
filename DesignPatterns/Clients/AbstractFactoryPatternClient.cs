@@ -1,8 +1,12 @@
 ﻿using DesignPatterns.Clients.Interfaces;
-using System;
+using DesignPatterns.Patterns.Creational.AbstractFactory;
 
 namespace DesignPatterns.Clients
 {
+    /// <summary>
+    /// The client of the abstract factory pattern. This example simulates
+    /// choosing an emperor and summoning an army (a "factory of factories").
+    /// </summary>
     public class AbstractFactoryPatternClient : IPatternClient
     {
         public string PatternName
@@ -12,7 +16,7 @@ namespace DesignPatterns.Clients
 
         public void Run()
         {
-            Console.Write("Pattern not implemented.");
+            new Emperor().SummonArmy();
         }
     }
 }

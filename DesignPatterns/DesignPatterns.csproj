@@ -114,6 +114,10 @@
     <Compile Include="Patterns\Behavioural\Visitor\Interfaces\IVisitor.cs" />
     <Compile Include="Patterns\Behavioural\Visitor\Taxi.cs" />
     <Compile Include="Patterns\Behavioural\Visitor\TaxiDispatcher.cs" />
+    <Compile Include="Patterns\Creational\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="Patterns\Creational\AbstractFactory\Emperor.cs" />
+    <Compile Include="Patterns\Creational\AbstractFactory\PersianFactory.cs" />
+    <Compile Include="Patterns\Creational\AbstractFactory\RomanFactory.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\MinceAndCheesePieBuilder.cs" />
@@ -171,7 +175,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Patterns\Behavioural\Interpreter\" />
-    <Folder Include="Patterns\Creational\AbstractFactory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
