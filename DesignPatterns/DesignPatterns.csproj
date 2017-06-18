@@ -104,6 +104,11 @@
     <Compile Include="Patterns\Behavioural\Strategy\TransferByCar.cs" />
     <Compile Include="Patterns\Behavioural\Strategy\TransferByTaxi.cs" />
     <Compile Include="Patterns\Behavioural\Strategy\TransferType.cs" />
+    <Compile Include="Patterns\Behavioural\TemplateMethod\GameOfCricket.cs" />
+    <Compile Include="Patterns\Behavioural\TemplateMethod\GameOfFootball.cs" />
+    <Compile Include="Patterns\Behavioural\TemplateMethod\GameDay.cs" />
+    <Compile Include="Patterns\Behavioural\TemplateMethod\GameOfRugby.cs" />
+    <Compile Include="Patterns\Behavioural\TemplateMethod\GameOfSport.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
     <Compile Include="Patterns\Creational\Builder\MinceAndCheesePieBuilder.cs" />
@@ -161,7 +166,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Patterns\Behavioural\Interpreter\" />
-    <Folder Include="Patterns\Behavioural\TemplateMethod\" />
     <Folder Include="Patterns\Behavioural\Visitor\" />
     <Folder Include="Patterns\Creational\AbstractFactory\" />
   </ItemGroup>

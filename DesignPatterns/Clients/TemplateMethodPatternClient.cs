@@ -1,8 +1,13 @@
 ﻿using DesignPatterns.Clients.Interfaces;
-using System;
+using DesignPatterns.Patterns.Behavioural.TemplateMethod;
 
 namespace DesignPatterns.Clients
 {
+    /// <summary>
+    /// Client of the template method pattern. This example simulates a match day
+    /// for a number of different sports. Each sports match is played in the same
+    /// general way, with some sports customising some of the steps along the way.
+    /// </summary>
     public class TemplateMethodPatternClient : IPatternClient
     {
         public string PatternName
@@ -12,7 +17,7 @@ namespace DesignPatterns.Clients
 
         public void Run()
         {
-            Console.WriteLine("Pattern not implemented");
+            new GameDay().Commence();
         }
     }
 }
