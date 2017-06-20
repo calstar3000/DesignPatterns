@@ -77,6 +77,11 @@
     <Compile Include="Patterns\Behavioural\Command\Restaurant.cs" />
     <Compile Include="Patterns\Behavioural\Command\OrderOfWaffles.cs" />
     <Compile Include="Patterns\Behavioural\Command\Waiter.cs" />
+    <Compile Include="Patterns\Behavioural\Interpreter\Calculator.cs" />
+    <Compile Include="Patterns\Behavioural\Interpreter\Expression.cs" />
+    <Compile Include="Patterns\Behavioural\Interpreter\ExpressionMinus.cs" />
+    <Compile Include="Patterns\Behavioural\Interpreter\ExpressionPlus.cs" />
+    <Compile Include="Patterns\Behavioural\Interpreter\ExpressionNumber.cs" />
     <Compile Include="Patterns\Behavioural\Iterator\Interfaces\IIterator.cs" />
     <Compile Include="Patterns\Behavioural\Iterator\Iterator.cs" />
     <Compile Include="Patterns\Behavioural\Iterator\Radio.cs" />
@@ -119,11 +124,11 @@
     <Compile Include="Patterns\Creational\AbstractFactory\PersianFactory.cs" />
     <Compile Include="Patterns\Creational\AbstractFactory\RomanFactory.cs" />
     <Compile Include="Patterns\Creational\Builder\Interfaces\IPieBuilder.cs" />
-    <Compile Include="Patterns\Creational\Builder\BlueberryPieBuilder.cs" />
-    <Compile Include="Patterns\Creational\Builder\MinceAndCheesePieBuilder.cs" />
+    <Compile Include="Patterns\Creational\Builder\BuilderBlueberryPie.cs" />
+    <Compile Include="Patterns\Creational\Builder\BuilderMinceAndCheesePie.cs" />
     <Compile Include="Patterns\Creational\Builder\Pie.cs" />
     <Compile Include="Patterns\Creational\Builder\PieShop.cs" />
-    <Compile Include="Patterns\Creational\Builder\PotatoTopPieBuilder.cs" />
+    <Compile Include="Patterns\Creational\Builder\BuilderPotatoTopPie.cs" />
     <Compile Include="Patterns\Creational\Factory\Products\Facebook.cs" />
     <Compile Include="Patterns\Creational\Factory\Products\Google.cs" />
     <Compile Include="Patterns\Creational\Factory\Products\Instagram.cs" />
@@ -132,9 +137,9 @@
     <Compile Include="Clients\FactoryPatternClient.cs" />
     <Compile Include="Patterns\Creational\Factory\SocialNetwork.cs" />
     <Compile Include="Patterns\Creational\Factory\SocialNetworkFactory.cs" />
-    <Compile Include="Patterns\Creational\Prototype\HalfOrcPrototype.cs" />
+    <Compile Include="Patterns\Creational\Prototype\PrototypeHalfOrc.cs" />
     <Compile Include="Patterns\Creational\Prototype\OrcArmy.cs" />
-    <Compile Include="Patterns\Creational\Prototype\OrcPrototype.cs" />
+    <Compile Include="Patterns\Creational\Prototype\PrototypeOrc.cs" />
     <Compile Include="Patterns\Creational\Prototype\Prototype.cs" />
     <Compile Include="Patterns\Creational\Singleton\GameState.cs" />
     <Compile Include="Patterns\Structural\Adapter\ExtraEmployeeInfoAdaptee.cs" />
@@ -173,9 +178,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Patterns\Behavioural\Interpreter\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

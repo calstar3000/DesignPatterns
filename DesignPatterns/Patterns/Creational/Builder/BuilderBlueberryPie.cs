@@ -5,11 +5,11 @@ namespace DesignPatterns.Patterns.Creational.Builder
     /// <summary>
     /// An example of a product built by the Builder
     /// </summary>
-    public class BlueberryPieBuilder : IPieBuilder
+    public class BuilderBlueberryPie : IPieBuilder
     {
         Pie _pie;
 
-        public BlueberryPieBuilder()
+        public BuilderBlueberryPie()
         {
             _pie = new Pie("Blueberry Pie");
         }

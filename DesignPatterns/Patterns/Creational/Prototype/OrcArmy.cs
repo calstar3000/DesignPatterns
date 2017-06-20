@@ -6,7 +6,7 @@ namespace DesignPatterns.Patterns.Creational.Prototype
     {
         public void Spawn()
         {
-            var halfOrcPrototype = new HalfOrcPrototype(1);
+            var halfOrcPrototype = new PrototypeHalfOrc(1);
 
             var halfOrc1 = halfOrcPrototype.Clone();
             // ...
@@ -15,7 +15,7 @@ namespace DesignPatterns.Patterns.Creational.Prototype
             Console.WriteLine(string.Format("HalfOrc1 has id {0}", halfOrc1.Id));
             Console.WriteLine(string.Format("HalfOrc1000 has id {0}", halfOrc1000.Id));
 
-            var orcPrototype = new OrcPrototype(2);
+            var orcPrototype = new PrototypeOrc(2);
 
             var orc1 = orcPrototype.Clone();
             // ...

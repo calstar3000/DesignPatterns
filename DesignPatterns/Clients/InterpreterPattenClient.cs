@@ -1,8 +1,13 @@
 ﻿using DesignPatterns.Clients.Interfaces;
-using System;
+using DesignPatterns.Patterns.Behavioural.Interpreter;
 
 namespace DesignPatterns.Clients
 {
+    /// <summary>
+    /// The client of the interpreter pattern. This example simulates a calculator
+    /// that can interpret expressions, where each expression can itself be made up
+    /// of more expressions.
+    /// </summary>
     public class InterpreterPattenClient : IPatternClient
     {
         public string PatternName
@@ -12,7 +17,7 @@ namespace DesignPatterns.Clients
 
         public void Run()
         {
-            Console.WriteLine("Pattern not implemented");
+            new Calculator().Compute();
         }
     }
 }

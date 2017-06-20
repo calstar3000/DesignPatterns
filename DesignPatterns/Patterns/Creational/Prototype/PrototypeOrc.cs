@@ -1,9 +1,9 @@
 ﻿
 namespace DesignPatterns.Patterns.Creational.Prototype
 {
-    public class HalfOrcPrototype : Prototype
+    public class PrototypeOrc : Prototype
     {
-        public HalfOrcPrototype(int id) : base(id)
+        public PrototypeOrc(int id) : base(id)
         {
         }
 

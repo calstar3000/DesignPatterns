@@ -10,9 +10,9 @@ namespace DesignPatterns.Patterns.Creational.Builder
     {
         public void BuildPies()
         {
-            var minceAndCheesePieBuilder = new MinceAndCheesePieBuilder();
-            var potatoTopPieBuilder = new PotatoTopPieBuilder();
-            var blueberryPieBuilder = new BlueberryPieBuilder();
+            var minceAndCheesePieBuilder = new BuilderMinceAndCheesePie();
+            var potatoTopPieBuilder = new BuilderPotatoTopPie();
+            var blueberryPieBuilder = new BuilderBlueberryPie();
 
             BuildPie(minceAndCheesePieBuilder);
             BuildPie(potatoTopPieBuilder);
